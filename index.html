@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>PT Tunggal Utama Makmur</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+
+            /* Background */
+            background-image: url("1.jpeg"); /* ganti sesuai gambar kamu */
+            background-size: auto;
+            background-position: center 35%;
+            background-repeat: no-repeat;
+        }
+        /*landscape*/
+        @media (orientation: landscape) {
+            body {
+                background-size: cover;
+            }
+        }
+
+        /* Header */
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 50px;
+            background: rgba(220, 248, 226, 0.548);
+        }
+
+        .logo {
+            color: rgb(8, 8, 8);
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        .menu {
+            list-style: none;
+        }
+
+        .menu li {
+            display: inline;
+            margin-left: 20px;
+            color: white;
+            cursor: pointer;
+        }
+
+        .menu li:hover {
+            color: orange;
+        }
+
+        /* Content */
+        .content {
+            text-align: center;
+            color: white;
+            margin-top: 100px;
+        }
+
+        .content h1 {
+            font-size: 40px;
+        }
+
+        .content p {
+            font-size: 18px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="header">
+        <h2 class="logo">PT Tunggal Utama Makmur</h2>
+
+        <ul class="menu">
+            <li><a href="home.html">HOME</a></li>
+            <li><a href="service.html">SERVICE</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+    </div>
+    
+</body>
+</html>

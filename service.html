@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Service - PT Tunggal Utama Makmur</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial;
+        }
+
+        /* HEADER */
+        .header {
+            background: black;
+            padding: 15px;
+        }
+
+        .logo {
+            color: orange;
+            display: inline-block;
+            margin-right: 50px;
+        }
+
+        .menu {
+            display: inline-block;
+            list-style: none;
+        }
+
+        .menu li {
+            display: inline;
+            margin-left: 15px;
+        }
+
+        .menu a {
+            color: white;
+            text-decoration: none;
+        }
+
+        .menu a:hover {
+            color: orange;
+        }
+
+        /* HERO */
+        .hero {
+            text-align: center;
+            padding: 80px 20px;
+            background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('https://via.placeholder.com/1200x400');
+            background-size: cover;
+            color: white;
+        }
+
+        /* LAYANAN */
+        .service {
+            padding: 50px 20px;
+            text-align: center;
+            background: #f9f9f9;
+        }
+
+        .service-box {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+            margin-top: 30px;
+        }
+
+        .card {
+            background: white;
+            width: 250px;
+            padding: 15px;
+            border-radius: 15px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            transition: 0.3s;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+        }
+
+        /* 🔥 GAMBAR KOTAK */
+        .card img {
+            width: 100%;
+            aspect-ratio: 1/1; /* bikin kotak */
+            object-fit: cover;
+            border-radius: 10px;
+            margin-bottom: 10px;
+        }
+
+        /* HARGA */
+        .harga {
+            padding: 50px 20px;
+            text-align: center;
+        }
+
+        .harga-box {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+            margin-top: 30px;
+        }
+
+        .harga-card {
+            background: white;
+            width: 250px;
+            padding: 15px;
+            border-radius: 15px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            border-top: 5px solid orange;
+            transition: 0.3s;
+        }
+
+        .harga-card:hover {
+            transform: translateY(-5px);
+        }
+
+        /* 🔥 GAMBAR KOTAK JUGA */
+        .harga-card img {
+            width: 100%;
+            aspect-ratio: 1/1;
+            object-fit: cover;
+            border-radius: 10px;
+            margin-bottom: 10px;
+        }
+
+        .price {
+            font-size: 20px;
+            color: orange;
+        }
+
+        /* CTA */
+        .cta {
+            text-align: center;
+            padding: 60px 20px;
+            background: linear-gradient(45deg, orange, #ff6600);
+            color: white;
+        }
+
+        .btn {
+            padding: 12px 25px;
+            background: white;
+            color: orange;
+            text-decoration: none;
+            border-radius: 5px;
+            display: inline-block;
+            margin-top: 15px;
+        }
+
+        /* FOOTER */
+        .footer {
+            text-align: center;
+            padding: 20px;
+            background: black;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+
+<!-- HEADER -->
+<div class="header">
+    <h2 class="logo">PT Tunggal Utama Makmur</h2>
+
+    <ul class="menu">
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="home.html">HALAMAN</a></li>
+        <li><a href="service.html">SERVICE</a></li>
+        <li><a href="contact.html">CONTACT</a></li>
+    </ul>
+</div>
+
+<!-- HERO -->
+<div class="hero">
+    <h1>Layanan Cleaning Service Profesional</h1>
+    <p>Kami menyediakan berbagai layanan kebersihan dengan standar industri</p>
+</div>
+
+<!-- LAYANAN -->
+<div class="service">
+    <h2>Layanan Kami</h2>
+
+    <div class="service-box">
+        <div class="card">
+            <img src="2.jpeg">
+            <h3>Kebersihan Masjid</h3>
+            <p>Pembersihan masjid secara menyeluruh.</p>
+        </div>
+
+        <div class="card">
+            <img src="3.jpeg">
+            <h3>Kebersihan Outdoor</h3>
+            <p>Menjaga outdoor tetap bersih.</p>
+        </div>
+
+        <div class="card">
+            <img src="4.jpeg">
+            <h3>Cleaning Halaman Rumah</h3>
+            <p>Pembersihan halaman rumah secara menyeluruh.</p>
+        </div>
+
+        <div class="card">
+            <img src="5.jpeg">
+            <h3>General Cleaning</h3>
+            <p>Pembersihan total berbagai area.</p>
+        </div>
+    </div>
+</div>
+
+<!-- HARGA -->
+<div class="harga">
+    <h2>Daftar Harga</h2>
+
+    <div class="harga-box">
+       <a href="contact.html" style="text-decoration:none; color:black;">
+    <div class="card">
+        <img src="gc.jpg">
+        <h3>Kebersihan area tertentu</h3>
+        <p>Pembersihan area secara menyeluruh.</p>
+        <p class="price">Rp100.000</p>
+    </div>
+</a>
+
+        <a href="contact.html" style="text-decoration:none; color:black;">
+    <div class="card">
+        <img src="rumah.jpg">
+        <h3>Kebersihan Rumah</h3>
+        <p>Pembersihan rumah secara menyeluruh.</p>
+        <p class="price">Rp150.000</p>
+    </div>
+</a>
+
+        <a href="contact.html" style="text-decoration:none; color:black;">
+    <div class="card">
+        <img src="kantor.jpg">
+        <h3>Kebersihan Kantor</h3>
+        <p>Pembersihan kantor secara menyeluruh.</p>
+        <p class="price">Rp200.000</p>
+    </div>
+</a>
+
+
+       <a href="contact.html" style="text-decoration:none; color:black;">
+    <div class="card">
+        <img src="gedung.jpg">
+        <h3>Kebersihan gedung</h3>
+        <p>Pembersihan gedung secara menyeluruh.</p>
+        <p class="price">Rp300.000</p>
+    </div>
+</a>
+    </div>
+</div>
+
+<!-- CTA -->
+<div class="cta">
+    <h2>Pesan Layanan Sekarang</h2>
+    <p>Hubungi kami untuk mendapatkan layanan terbaik</p>
+    <a href="contact.html" class="btn">Hubungi Kami</a>
+</div>
+
+<!-- FOOTER -->
+<div class="footer">
+    <p>© 2026 PT Tunggal Utama Makmur</p>
+</div>
+
+</body>
+</html>
